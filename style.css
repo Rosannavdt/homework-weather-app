@@ -1,0 +1,94 @@
+h1 {
+  margin: 40px 0px 0px 58px;
+}
+
+form {
+  width: 800px;
+}
+
+button {
+  margin-bottom: 3px;
+}
+div.currentweatheremotji .fa-sun {
+  margin-top: 40px;
+  padding: 0px 0px 0px 120px;
+  font-size: 80px;
+  color: #ffcb8e;
+}
+
+i {
+  font-size: 35px;
+  color: #679b9b;
+}
+
+.weatherapp {
+  border: 1px solid;
+  width: 680px;
+  length: 450px;
+  background: linear-gradient(#e3dfc8, #f5f1da);
+}
+.enterlocation {
+  display: block;
+  margin: 50px 0px 0px 60px;
+}
+
+.dateandtime {
+  margin: 10px 0px 0px 58px;
+}
+.time {
+  margin: 10px 0px 0px 58px;
+}
+
+.currenttemperature {
+  font-size: 40px;
+  padding: 0px 0px 0px 120px;
+  font-family: "Nunito", sans-serif;
+}
+
+.descriptionweather {
+  margin-left: 420px;
+  font-family: "Nunito", sans-serif;
+}
+
+.forecast {
+  font-family: "Nunito", sans-serif;
+  margin: 0px 0px 20px 58px;
+}
+ul {
+  list-style-type: none;
+  margin: 0px auto;
+  padding: 0 20px 40px 15px;
+}
+
+.friday {
+  padding: 0px 60px 0px 72px;
+}
+.saturday {
+  padding: 0px 60px 0px 15px;
+}
+.sunday {
+  padding: 0px 60px 0px 15px;
+}
+.monday {
+  padding: 0px 60px 0px 15px;
+}
+.tuesday {
+  padding: 0px 60px 0px 15px;
+}
+
+.degree {
+  display: inline;
+  padding: 0px 0px 0px 120px;
+}
+
+.fahrenheit {
+  display: inline;
+}
+
+.col-sm-12 {
+  width: 310px;
+}
+
+.col-10 {
+  width: 300px;
+}

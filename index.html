@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/022cf3a653.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Homeworkweek5</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weatherapp">
+        <form>
+          <div class="enterlocation">
+            <input
+              type="text"
+              placeholder="Enter your location"
+              size="50px"
+              id="location-text-input"
+            />
+            <button type="submit" class="btn btn-secondary btn-sm">
+              Search
+            </button>
+
+            <button
+              type="button"
+              class="btn btn-info btn-sm"
+              id="current-button"
+            >
+              Current
+            </button>
+          </div>
+        </form>
+        <div class="row">
+          <div class="currentlocation">
+            <div class="col-sm-12">
+              <h1>Amsterdam</h1>
+              <p class="dateandtime" id="current-date">
+                Thursday, July 30, 2020
+              </p>
+              <p class="time" id="current-time">16:00 PM</p>
+            </div>
+          </div>
+
+          <div class="currentweathericon">
+            <div class="col-10">
+              <div class="currentweatheremotji">
+                <i class="fas fa-sun"></i>
+              </div>
+              <div class="currenttemperature" id="current-temperature">35</div>
+              <a href="#" class="degree" id="degree">°C | </a>
+              <a href="#" class="fahrenheit" id="fahrenheit">F</a>
+            </div>
+          </div>
+        </div>
+
+        <p class="descriptionweather">Sunny day!</p>
+        <p class="forecast">Forecast</p>
+        <div class="weekdays">
+          <div class="row forecast5days">
+            <div class="col-p-0">
+              <ul class="friday">
+                <li>Fri</li>
+                <li><i class="fas fa-sun"></i></li>
+                <li>34°C</li>
+              </ul>
+            </div>
+            <div class="col-p-0">
+              <ul class="saturday">
+                <li>Sat</li>
+                <li><i class="fas fa-sun"></i></li>
+                <li>34°C</li>
+              </ul>
+            </div>
+
+            <div class="col-p-0">
+              <ul class="sunday">
+                <li>Sun</li>
+                <li><i class="fas fa-cloud-sun-rain"></i></li>
+                <li>34°C</li>
+              </ul>
+            </div>
+
+            <div class="col-p-0">
+              <ul class="monday">
+                <li>Mon</li>
+                <li><i class="fas fa-cloud-rain"></i></li>
+                <li>34°C</li>
+              </ul>
+            </div>
+
+            <div class="col-p-0">
+              <ul class="tuesday">
+                <li>Tue</li>
+                <li><i class="fas fa-cloud-rain"></i></li>
+                <li>34°C</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
